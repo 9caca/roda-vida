@@ -1,0 +1,20 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+h1 {
+  font-size: 60px;
+  background-color: #FAFA00;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: adjust;
+  font-family: sans-serif;
+}

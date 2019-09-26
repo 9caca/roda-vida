@@ -1,20 +1,116 @@
-html, body {
-  margin: 0;
-  padding: 0;
-}
-canvas {
-  display: block;
+body{
+  background-color: #F2FFFC;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 120%;
+  line-height: 1.5
 }
 
 h1 {
   font-size: 60px;
-  background-color: #FAFA00;
   text-align: center;
-  font-family: sans-serif;
+  background-color: #FAFA00;
+  color: #000;
+  padding: 20px;
+  border-bottom: 10px solid #000;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  width: 98%;
+  margin-left: 0;
+  margin-top: 0;
+  clear: both;
 }
 
-h2 {
+h3 {
+  font-size: 30px;
+  background-color: #FFF;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+main h2 {
   font-size: 30px;
   text-align: adjust;
   font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main div {
+    padding: 5px 0;
+}
+
+div {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main{
+  float: left;
+  width: 85%;
+  padding: 15px;
+  margin-bottom: 80px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+p {
+  text-align: justify;
+  margin: 20px;
+}
+
+blockquote {
+  background-color: #D9E5E3;
+  padding: 20px;
+  border: 10px solid #C2CCCA;
+  width: 250px;
+  margin: 20px 40px;
+  box-sizing: border-box;
+  font-style: italic;
+}
+
+aside {
+  background-color: #FAFA00;
+    color: #000;
+    padding: 30px;
+    text-align: left;
+    float: right;
+    clear: right;
+    box-sizing: border-box;
+    width: 15%;
+    border: 10px solid #000;
+    position: fixed;
+    top: 140px;
+    right: 0;
+}
+
+nav h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+nav a {
+  color: inherit;
+  text-transform: lowercase;
+}
+
+.rodape-pagina {
+  background-color: #000;
+  color: #F2FFFC;
+  padding: 20px;
+}
+
+footer{
+  clear: both;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }

@@ -5,22 +5,41 @@ botaoAdicionar.addEventListener("click", principal);
 function principal(){{
 	event.preventDefault();
 }
+	var todasAsMedias = [];
+
+	console.log(todasAsMedias);
+
+
 	
-	mostra(form = document.querySelector("#fisico"));
-	mostra(form = document.querySelector("#carreira"));
-	mostra(form = document.querySelector("#relacionamentos"));
-	mostra(form = document.querySelector("#financeiro"));
-	mostra(form = document.querySelector("#saude"));
-	mostra(form = document.querySelector("#pessoal"));
-	mostra(form = document.querySelector("#romance"));
-	mostra(form = document.querySelector("#diversao"));
-	mostra(form = document.querySelector("#social"));
-	mostra(form = document.querySelector("#espiritualidade"));
-	mostra(form = document.querySelector("#familia"));
-	mostra(form = document.querySelector("#emocional"));
-	mostra(form = document.querySelector("#felicidade"));
-	mostra(form = document.querySelector("#proposito"));
-		
+
+	var media = mostra(form = document.querySelector("#fisico"));
+	todasAsMedias.push(media);
+	media = mostra(form = document.querySelector("#carreira"));
+	todasAsMedias.push(media);
+	media = mostra(form = document.querySelector("#relacionamentos"));
+	todasAsMedias.push(media);
+	media = mostra(form = document.querySelector("#financeiro"));
+	todasAsMedias.push(media);
+	media = mostra(form = document.querySelector("#saude"));
+	todasAsMedias.push(media);
+	media = mostra(form = document.querySelector("#pessoal"));
+	todasAsMedias.push(media);
+	media = mostra(form = document.querySelector("#romance"));
+	todasAsMedias.push(media);
+	media = mostra(form = document.querySelector("#diversao"));
+	todasAsMedias.push(media);
+	media = mostra(form = document.querySelector("#social"));
+	todasAsMedias.push(media);
+	media = mostra(form = document.querySelector("#espiritualidade"));
+	todasAsMedias.push(media);
+	media = mostra(form = document.querySelector("#familia"));
+	todasAsMedias.push(media);
+	media = mostra(form = document.querySelector("#emocional"));
+	todasAsMedias.push(media);
+	media = mostra(form = document.querySelector("#felicidade"));
+	todasAsMedias.push(media);
+	media = mostra(form = document.querySelector("#proposito"));
+	todasAsMedias.push(media);
 }
 
 function mostra(categoria){
@@ -31,8 +50,9 @@ function mostra(categoria){
 	r5 = parseInt(form.n5.value);
 
 	var media = (r1 + r2 + r3 + r4 + r5)/5;
-	console.log(media);
 
 	return media;
+
+	
 }
 

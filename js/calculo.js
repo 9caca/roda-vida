@@ -9,9 +9,6 @@ function principal(){{
 
 	console.log(todasAsMedias);
 
-
-	
-
 	var media = mostra(form = document.querySelector("#fisico"));
 	todasAsMedias.push(media);
 	media = mostra(form = document.querySelector("#carreira"));

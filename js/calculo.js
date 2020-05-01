@@ -6,7 +6,6 @@ function principal(){{
 	event.preventDefault();
 }
 	var todasAsMedias = [];
-
 	console.log(todasAsMedias);
 
 	var media = mostra(form = document.querySelector("#fisico"));
@@ -49,7 +48,5 @@ function mostra(categoria){
 	var media = (r1 + r2 + r3 + r4 + r5)/5;
 
 	return media;
-
-	
 }
 
